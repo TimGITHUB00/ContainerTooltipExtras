@@ -2,11 +2,11 @@
 
 Adds modified tooltips to Road to Vostok.
 
-Shows [Open+] instead of [Open] when hovering over containers that have loot inside them. (Not working inside shelters!)
+Shows [Open+] instead of [Open] when hovering over containers that have loot inside them and [Open+ (valuables)] instead of [Open+] when hovering over containers that have valuable loot inside them (like Weapons, Magazines, Ammo and Medical). (Not working inside shelters!)
 
 ## Features
 
-- Tooltips modified to show [Open+] instead of [Open] when hovering over containers that have loot inside them. (Not working inside shelters!)
+- Tooltips modified to show [Open+] instead of [Open] when hovering over containers that have loot inside them and [Open+ (valuables)] instead of [Open+] when hovering over containers that have valuable loot inside them (like Weapons, Magazines, Ammo and Medical). (Not working inside shelters!)
 
 ## Compatibility
 
