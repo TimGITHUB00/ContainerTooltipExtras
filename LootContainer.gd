@@ -15,7 +15,7 @@ func UpdateTooltipData():
 	for slotData in source:
 		if slotData != null and slotData.itemData != null:
 			has_items = true
-			if slotData.itemData.type == "Weapon" or slotData.itemData.type == "Knife" or slotData.itemData.type == "Attachment" or slotData.itemData.type == "Ammo" or slotData.itemData.type == "Medical":
+			if slotData.itemData.type == "Weapon" or slotData.itemData.type == "Knife" or slotData.itemData.type == "Grenade" or slotData.itemData.type == "Electronics" or slotData.itemData.type == "Rig" or slotData.itemData.type == "Helmet" or slotData.itemData.type == "Armor" or slotData.itemData.type == "Attachment" or slotData.itemData.type == "Ammo" or slotData.itemData.type == "Medical":
 				has_valuables = true
 				break
 
