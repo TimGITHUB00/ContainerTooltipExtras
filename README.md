@@ -16,18 +16,18 @@ Adds modified tooltips to Road to Vostok.
 
 With MCM installed, find "Container Tooltip Extras" in the mod config menu:
 
-[Open+] - on/off (default: off)
-[Open+ (valuables)] - on/off (default: off)
-Weapons as valuables - on/off (default: off)
-Knives as valuables - on/off (default: off)
-Grenades as valuables - on/off (default: off)
-Electronics as valuables - on/off (default: off)
-Rigs as valuables - on/off (default: off)
-Helmets as valuables - on/off (default: off)
-Armor as valuables - on/off (default: off)
-Attachments as valuables - on/off (default: off)
-Ammo as valuables - on/off (default: off)
-Medical as valuables - on/off (default: off)
+- [Open+] - on/off (default: off)
+- [Open+ (valuables)] - on/off (default: off)
+- Weapons as valuables - on/off (default: off)
+- Knives as valuables - on/off (default: off)
+- Grenades as valuables - on/off (default: off)
+- Electronics as valuables - on/off (default: off)
+- Rigs as valuables - on/off (default: off)
+- Helmets as valuables - on/off (default: off)
+- Armor as valuables - on/off (default: off)
+- Attachments as valuables - on/off (default: off)
+- Ammo as valuables - on/off (default: off)
+- Medical as valuables - on/off (default: off)
 
 Without MCM, settings are saved automatically with defaults so them are off!
 
