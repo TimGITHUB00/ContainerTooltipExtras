@@ -18,7 +18,7 @@ func UpdateTooltipData():
 		if slotData != null and slotData.itemData != null:
 			if tooltipSettings.tooltipPlusEnabled:
 				has_items = true
-				if slotData.itemData.type == "Weapon" or slotData.itemData.type == "Knife" or slotData.itemData.type == "Grenade" or slotData.itemData.type == "Electronics" or slotData.itemData.type == "Rig" or slotData.itemData.type == "Helmet" or slotData.itemData.type == "Armor" or slotData.itemData.type == "Attachment" or slotData.itemData.type == "Ammo" or slotData.itemData.type == "Medical":
+				if slotData.itemData.type == "Weapon" and tooltipSettings.weapons or slotData.itemData.type == "Knife" and tooltipSettings.knives or slotData.itemData.type == "Grenade" and tooltipSettings.grenades or slotData.itemData.type == "Electronics" and tooltipSettings.electronics or slotData.itemData.type == "Rig" and tooltipSettings.rigs or slotData.itemData.type == "Helmet" and tooltipSettings.helmets or slotData.itemData.type == "Armor" and tooltipSettings.armors or slotData.itemData.type == "Attachment" and tooltipSettings.attachments or slotData.itemData.type == "Ammo" and tooltipSettings.ammo or slotData.itemData.type == "Medical" and tooltipSettings.medical:
 					if tooltipSettings.tooltipPlusValuablesEnabled:
 						has_valuables = true
 						break

@@ -21,6 +21,66 @@ func _ready() -> void:
 		"default" = false,
 		"value" = false
 	})
+	config.set_value("Bool", "weapons", {
+		"name" = "Weapons (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "knives", {
+		"name" = "Knives (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "grenades", {
+		"name" = "Grenades (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "electronics", {
+		"name" = "Electronics (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "rigs", {
+		"name" = "Rigs (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "helmets", {
+		"name" = "Helmets (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "armors", {
+		"name" = "Armors (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "attachments", {
+		"name" = "Attachments (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "ammo", {
+		"name" = "Ammo (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
+	config.set_value("Bool", "medical", {
+		"name" = "Medical (valuables) - Enabled",
+		"tooltip" = "",
+		"default" = false,
+		"value" = false
+	})
 
 
 	if McmHelpers != null:
@@ -60,5 +120,15 @@ func _on_cte_config_updated(_config: ConfigFile):
 
 	tooltipSettings.tooltipPlusEnabled = tooltip_plus_enabled
 	tooltipSettings.tooltipPlusValuablesEnabled = tooltip_plus_valuables_enabled
+	tooltipSettings.weapons = _config.get_value("Bool", "weapons")["value"]
+	tooltipSettings.knives = _config.get_value("Bool", "knives")["value"]
+	tooltipSettings.grenades = _config.get_value("Bool", "grenades")["value"]
+	tooltipSettings.electronics = _config.get_value("Bool", "electronics")["value"]
+	tooltipSettings.rigs = _config.get_value("Bool", "rigs")["value"]
+	tooltipSettings.helmets = _config.get_value("Bool", "helmets")["value"]
+	tooltipSettings.armors = _config.get_value("Bool", "armors")["value"]
+	tooltipSettings.attachments = _config.get_value("Bool", "attachments")["value"]
+	tooltipSettings.ammo = _config.get_value("Bool", "ammo")["value"]
+	tooltipSettings.medical = _config.get_value("Bool", "medical")["value"]
 	
 	tooltipSettings.mcmEnabled = true
