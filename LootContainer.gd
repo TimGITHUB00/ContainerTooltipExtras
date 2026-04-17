@@ -23,4 +23,5 @@ func UpdateTooltipData():
 						has_valuables = true
 						break
 
-	gameData.tooltip = containerName + (" [Open+ (valuables)]" if has_items and has_valuables else " [Open+]" if has_items else " [Open]")
+	gameData.tooltip = ("[color=green][+][/color] " if has_items else "") + containerName
+	gameData.tooltip = gameData.tooltip + (" [Open] [color=yellow](valuables)[/color]" if has_items and has_valuables else " [Open]" if has_items else " [Open]")

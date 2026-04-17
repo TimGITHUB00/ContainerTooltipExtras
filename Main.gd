@@ -3,6 +3,7 @@ extends Node
 func _ready() -> void:
 	overrideScript("res://ContainerTooltipExtras/LootContainer.gd")
 	overrideScript("res://ContainerTooltipExtras/Interface.gd")
+	overrideScript("res://ContainerTooltipExtras/HUD.gd")
 
 func overrideScript(overrideScriptPath : String):
 	var script : Script = load(overrideScriptPath)
