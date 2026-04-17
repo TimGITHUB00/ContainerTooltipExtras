@@ -1,0 +1,10 @@
+[mod]
+name="Container Tooltip Extras"
+id="container-tooltip-extras"
+version="0.2.0"
+
+[autoload]
+CTE="res://ContainerTooltipExtras/Main.gd"
+
+[updates]
+modworkshop=55860
